@@ -1,7 +1,7 @@
 <?php
 require dirname(__DIR__) . "/vendor/autoload.php";
 
-$yourApiKey = "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";
+$yourApiKey = getenv('OPENAI_API_KEY');
 
 $wsclient = new WebSocket\Client("ws://127.0.0.1:8080/", [
     'timeout' => 5 * 60 * 60,
