@@ -1,0 +1,13 @@
+{
+	"autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    
+    "require": {
+        "cboden/ratchet": "v0.4",
+		"textalk/websocket": "^1.6",
+		"openai-php/client": "^0.3.5"
+    }
+}
